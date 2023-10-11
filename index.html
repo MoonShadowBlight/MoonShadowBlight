@@ -3,65 +3,67 @@
 <html lang="en">
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
-		<meta name="viewport" content="device-width, initial-scale= 1.0">
-		<title>HTML 5 CheatSheet</title>
+		<meta name="viewport" content="device-width, initial-scale=1.0">
+		<title>HTML Cheat Sheet</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet"> 
-		<link rel="stylesheet" href="./CSS/mainStyle.css" type="text/CSS">
+		<link rel="stylesheet" type="text/css" href="./CSS/mainStyles.css">
 	</head>
+	
 	<body>
-		<div>
 		<header>
-			<img src="./Resources/Images/Logo.png" alt="logo - hidden element">
+			<img src="./Resources/Images/Logo.png" alt="Html Css Logo">
 			<h1>HTML 5 Cheat Sheet</h1>
 		</header>
-			<span class="bar"></span>
-			<div class="wrap">
+		
+		<span aria="hidden" class="bar"></span>
+		
+		<div class="container">
 			<nav>
 				<ul>
-					<li class="html"><a href="./index.html">Html<br>Basics</a></li>
-					<li class="semantic"><a href="./semantic.html">Semantic<br>Tags</a></li>
-					<li class="css"><a href="./css.html">CSS<br>Basics</a></li>
+					<li class="viewing"><a href="index.html">HTML<br>Basics</a></li>
+					<li><a href="semantic.html">Semantic<br>Tags</a></li>
+					<li><a href="css.html">CSS<br>Basics</a></li>
 				</ul>
 			</nav>
-			</div>
-			<main>
+
+		  <main>
 				<table>
 					<tr>
 						<td class="icon" rows="2">&lt;h1&gt;</td>
-						<td >
-							<p class="tip">Tags h1-h6 are used to define headings.</p>
-							<p class="italic">* Tip; Only use one h1 per page.</p>
+						<td>
+							<p>Tags h1-h6 are used to define headings.</p>
+							<p class="tip">* Tip; Only use one h1 per page.</p>
 						</td>
 					</tr>
 					<tr>
-						<td class="icon" rows="2">&lt;p&gt;</td>
-						<td >
-							<p class="tip">Used to define groups of text.</p>
-							<p class="italic">* Tip; "p" stands for paragraph.</p>
-						</td>
+						<td class="icon pad" rows="2">&lt;p&gt;</td>
+						<td>
+							<p>Used to define groups of text.</p>
+							<p class="tip">* Tip; "p" stands for paragraph.</p>
+					  </td>
 					</tr>
 					<tr>
 						<td class="icon" rows="2">&lt;br&gt;</td>
-						<td >
-							<p class="tip">The break tag breaks up elements.</p>
-							<p class="italic">* Tip; br is a self-closing tag. You only need one!</p>
+						<td>
+						  <p>The break tag breaks up elements.</p>
+							<p class="tip">* br is a self-closing tag. You only need one!</p>
 						</td>
 					</tr>
 					<tr>
 						<td class="icon" rows="2">&lt;hr&gt;</td>
-						<td >
-							<p class="tip">The horizontal rule tag adds a break and line.</p>
-							<p class="italic">* Tip; hr is a self-closing tag. You only need one!  </p>
-						</td>
+						<td>
+							<p>The horizontal rule tag adds a break and line.</p>
+							<p class="tip">* hr is a self-closing tag. You only need one! </p>
+					  </td>
 					</tr>
 				</table>
 			</main>
-			<footer>
-				<p>This is  codeAcademy Lesson practice</p>
-			</footer>
 		</div>
+			
+		<footer>
+			<p>This is Codeacademy lesson Practice</p>
+		</footer>
 	</body>
 </html>
-

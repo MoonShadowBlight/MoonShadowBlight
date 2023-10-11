@@ -3,64 +3,67 @@
 <html lang="en">
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
-		<meta name="viewport" content="device-width, initial-scale= 1.0">
-		<title>HTML 5 CheatSheet</title>
+		<meta name="viewport" content="device-width, initial-scale=1.0">
+		<title>HTML Cheat Sheet</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet"> 
-		<link rel="stylesheet" href="./CSS/semanticStyle.css" type="text/CSS">
+		<link rel="stylesheet" type="text/css" href="./CSS/semanticStyles.css">
 	</head>
+	
 	<body>
-		<div>
 		<header>
-			<img src="./Resources/Images/Logo.png" alt="logo - hidden element">
+			<img src="./Resources/Images/Logo.png" alt="Html Css Logo">
 			<h1>HTML 5 Cheat Sheet</h1>
 		</header>
-			<span class="bar"></span>
-			<div class="wrap">
+		
+		<span aria="hidden" class="bar"></span>
+		
+		<div class="container">
 			<nav>
 				<ul>
-					<li class="html"><a href="./index.html">Html<br>Basics</a></li>
-					<li class="semantic"><a href="./semantic.html">Semantic<br>Tags</a></li>
-					<li class="css"><a href="./css.html">CSS<br>Basics</a></li>
+					<li><a href="index.html">HTML<br>Basics</a></li>
+					<li class="semantic"><a href="semantic.html">Semantic<br>Tags</a></li>
+					<li><a href="css.html">CSS<br>Basics</a></li>
 				</ul>
 			</nav>
-			</div>
-			<main>
+
+		  <main>
 				<table>
 					<tr>
 						<td class="icon" rows="2">&lt;article&gt;</td>
-						<td >
-							<p class="tip">Independant self contained content.</p>
-							<p class="italic">* Tip; Articles can stand on their own without context.</p>
+						<td>
+							<p>Independant self contained content.</p>
+							<p class="tip">* Tip; Articles can stand on their own without context.</p>
 						</td>
 					</tr>
 					<tr>
-						<td class="icon" rows="2">&lt;header&gt;</td>
-						<td >
-							<p class="tip">Defines the introductry portion of your site.</p>
-							<p class="italic">* Tip; Often contains the nav elements as well.  </p>
-						</td>
+						<td class="icon lesspad" rows="2">&lt;header&gt;</td>
+						<td>
+							<p>Defines the introductry portion of your site.</p>
+							<p class="tip">* Tip; Often contains the nav elements as well.  </p>
+					  </td>
 					</tr>
 					<tr>
 						<td class="icon" rows="2">&lt;footer&gt;</td>
-						<td >
-							<p class="tip">Defines the foot section.</p>
-							<p class="italic">* Tip; You can have more than one footer per page.</p>
+						<td>
+						  <p>Defines the foot section.</p>
+							<p class="tip">* Tip; You can have more than one footer per page.  </p>
 						</td>
 					</tr>
 					<tr>
-						<td class="icon" rows="2">&lt;nav&gt;</td>
-						<td >
-							<p class="tip">Contains Navigation elements.</p>
-							<p class="italic">* Tip; Semantic tags help SEO and screen readers.</p>
-						</td>
+						<td class="icon pad" rows="2">&lt;nav&gt;</td>
+						<td>
+							<p>Contains Navigation elements.</p>
+							<p class="tip">* Tip; Semantic tags help SEO and screen readers.</p>
+					  </td>
 					</tr>
 				</table>
 			</main>
-			<footer>
-				<p>This is  codeAcademy Lesson practice</p>
-			</footer>
 		</div>
+			
+		<footer>
+			<p>This is Codeacademy lesson Practice</p>
+		</footer>
 	</body>
 </html>
