@@ -92,7 +92,7 @@ nav ul li a {
     text-decoration: none;
 	font-weight: 700;
     text-align: center;
-	
+}
 li:hover {
 	background: rgb(80,151,214);
     background: -moz-linear-gradient(0deg, rgba(80,151,214,1) 0%, rgba(2,62,115,1) 76%, rgba(1,31,58,1) 100%);
